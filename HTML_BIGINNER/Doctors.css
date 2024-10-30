@@ -1,0 +1,61 @@
+body{
+    background-color: aqua;
+    font-family: sans-serif;
+    text-align: center;
+}
+.logo{
+    width: 250px;
+    height: 150px;
+}
+.appointment-booking{
+    padding: 100px;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(232, 218, 218);
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select, button {
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+.time{
+    padding: 20px;
+}
+.dr{
+    cursor: pointer; 
+}
+.dr:hover{
+    background-color: rgb(184, 249, 249);
+}
+.seth{
+    cursor: pointer;
+}
+.seth:hover{
+    background-color: rgb(184, 249, 249);   
+}
+.book-now{
+    cursor: pointer;
+}
+.book-now:hover{
+    background-color: rgb(184, 249, 249);
+}
+.pay-now{
+    cursor: pointer;
+}
+.pay-now:hover{
+    background-color: rgb(184, 249, 249);
+}

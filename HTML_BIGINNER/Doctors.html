@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="Doctors.css">
+</head>
+<body>
+    <div class="container">
+    <div class="log">
+        <h1 class="main">WIAWSO GOVERNMENT HOSPITAL</h1>
+        <img src="ei_1729355999145-removebg-preview.png" class="logo">
+    </div>
+
+
+    
+    <h2 class="doc-appointment">DOCTOR'S APPOINTMENT</h2>
+    <div class="doctor-profiles">
+        <h2 class="doc">Our Doctors</h2>
+        <div class="doctor" id="doctor1">
+            <h3>Dr. Joseph Mensah</h3>
+            <p>Specialty: Cardiology</p>
+            <p>Available: Mon-Fri, 9 AM - 5 PM</p>
+            <button class="dr" onclick="bookAppointment('Dr. Joseph Mensah')">Book Appointment</button>
+        </div>
+        <div class="doctor" id="doctor2">
+            <h3>Dr. Seth K. Gyamfi</h3>
+            <p>Specialty: Pediatrics</p>
+            <p>Available: Tue-Thu, 10 AM - 4 PM</p>
+            <button class="seth" onclick="bookAppointment('Dr. Seth K. Gyamfi')">Book Appointment</button>
+        </div>
+    </div>
+</div>
+
+
+    <div class="appointment-booking">
+        <h2>Book an Appointment</h2>
+        <form id="bookingForm">
+            <label for="doctor">Choose Doctor:</label>
+            <select id="doctor" name="doctor">
+                <option value="Dr. Joseph Mensah">Dr. Joseph Mensah</option>
+                <option value="Dr. Seth K. Gyamfi">Dr. Seth K. Gyamfi</option>
+            </select>
+            
+            <label for="date">Choose Date:</label>
+            <input type="date" id="date" name="date" required>
+         <div class="time">
+            <label for="time">Choose Time:</label>
+            <input type="time" id="time" name="time" required>
+        </div>
+            <button class="book-now" type="submit">Book Now</button>
+        </form>
+    </div>
+
+    <div class="payment">
+        <h2>Pay for Appointment</h2>
+        <button class="pay-now" onclick="payNow()">Pay Now</button>
+    </div>
+
+   <button>click me</button>
+
+    
+</body>
+</html>

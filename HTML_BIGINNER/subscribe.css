@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(27, 4, 48);
+    text-align: center;
+    padding: 0px;
+    margin: 50px;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    padding: 0px 50px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    border-color: white;
+    
+}
+.tweet{
+    background-color: lightskyblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+     cursor: pointer;
+     width: 100px;
+}
+
+.tweet:hover{
+   background-color: rgb(110, 150, 199);
+}
+
+.btn:hover{
+    background-color: rgb(220, 14, 14);
+    
+}
+
+ .fb:hover{
+    background-color: rgb(221, 232, 289);
+}
+
+.flex{
+    float: right;
+    justify-content: center;
+    list-style: none;
+    margin-top: 27px;
+}
+.fb{
+    cursor: pointer;
+    background-color: aliceblue;
+    
+}

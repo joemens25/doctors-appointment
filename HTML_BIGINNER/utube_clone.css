@@ -1,0 +1,144 @@
+*,*::before, *::after {
+    box-sizing: border-box;
+    font-family: Arial;
+} 
+
+body{
+    margin: 0;
+    padding: 0;   
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 0px;
+    margin-left: 150px;
+    border-color: rgb(248, 246, 246);   
+}
+.u-logo{
+    display: flex;
+    margin-top: 50px;
+}
+.logo{
+    margin-left: 150px;
+    
+}
+.logo-btn{
+    width: 50px;
+    margin: 10px;
+    background-color: white;
+}
+.logo-btn:hover{
+    background-color: rgb(250, 250, 246);
+}
+.logo:hover{
+    background-color: rgb(91, 79, 79);
+}
+.srch{
+    background-color: rgba(252, 251, 248, 0.993);
+    height: 50px;
+    width: 100px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    cursor: pointer;
+    border: 1px solid;    
+}
+.srch:hover{
+    background-color: rgb(245, 242, 235);
+}
+.login{
+    width: 450px;
+    height: 50px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: 1px solid;
+}
+.cat{
+    margin: 2px ;
+    padding: 30px;   
+}
+
+.video-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fill);
+    gap: 3rem 1rem;
+    margin: 0 1.5rem;
+    display: flex;
+}
+.video-section:first-child{
+    border-bottom: none;
+}
+.video-bottom-section{
+    display: flex;
+    align-items: flex-start;
+}
+.thumbnail-image{
+    width: 150px;
+    height: 100px;
+    margin: 1px;
+}
+.thumbnail:hover{
+    background-color: rgb(180, 171, 171);
+}
+.thumbnail{
+    position: relative;        
+}
+.thumbnail::before{
+    content: attr(data-duration);
+    position: absolute;
+    background-color: black;
+    color: white;  
+}
+.channel-icon{
+    width: 30px;
+    height: 20px;
+    clip-path: circle();  
+    display: flex;   
+}
+.video-container{
+    display: flex;
+    flex-direction: column;
+}
+.video-details{
+    display: flex;
+}
+.category-section{
+background: none;
+}
+.category{
+    width: 100px;
+    height: 50px;
+    margin: 15px;
+    background-color: transparent;
+    color: white;
+    border-radius: 900px;
+    color: black;
+    word-wrap: none;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.category:hover{
+    background-color: rgb(239, 239, 245);
+    color: rgb(49, 22, 22);
+}
+.all{
+    background: black;
+    color: white;
+    width: 27px;
+    height: 30px;
+    border-radius: 45%;
+    cursor: pointer;
+}
+.all:hover{
+    background-color: rgb(66, 64, 64);
+}
+
+.header{
+  background: none;  
+}
+.logo{
+    width: 100px;
+}
+.srch-image{
+    width: 40px;
+}

@@ -1,0 +1,69 @@
+
+
+body{
+    
+    justify-content: center;
+    background: white;
+    text-align: center;
+    
+    padding: 100px;
+    margin: 0px;
+    padding-left: 470px;
+}
+h3{
+    padding: 10px;
+   color: rgb(78, 26, 26); 
+}
+
+p{
+    margin: 0px;
+    padding: 5px;
+    background-color: rgb(206, 206, 4);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+p:hover{
+    color: blueviolet;
+}
+.containner{
+width: 420px;    
+background-color: green;
+border-radius: 25px;
+border: none;
+}
+.btn{
+    background-color: rgb(19, 19, 3);
+    color: rgb(7, 152, 7);
+    padding: 5px 100px;
+    border: none;
+    border-radius: 25px;   
+}
+.btn:hover{
+    background-color: rgb(49, 49, 28);
+}
+.btn{
+    cursor: pointer;
+
+}
+.staff{
+    border-radius: 15px;
+    padding: 10px 40px;
+}
+.password{
+    border-radius: 15px;
+    padding: 10px 40px;
+    margin: 4px 10px;
+}
+.img{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;   
+}
+.peace{
+    padding-left: 32px;
+}
+.me{
+    padding-left:12px;
+}

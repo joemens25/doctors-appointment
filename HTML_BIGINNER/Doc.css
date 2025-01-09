@@ -1,8 +1,16 @@
 body{
-    background-color: aqua;
+    background-image: url(Hosp.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     font-family: sans-serif;
     text-align: center;
+    background-size: cover;
 }
+h1{
+   background-color: rgb(232, 218, 218);
+   color: rgba(10, 49, 175, 0.838);
+}
+
 .form-container {
     max-width: 300px;
     margin: 50px auto;
@@ -13,8 +21,38 @@ body{
     
 }
 .logo{
-    width: 200px;
-    height: 150px;
+    width: 45px;
+    height: 35px;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 40%;
+    top: 20px;
+}
+
+
+.ghs{
+    width: 135px;
+    height: 37px;
+    background-color: transparent;
+    position: absolute;
+    margin-left: -44%;
+    top: 21px; 
+}
+.Appointment{
+    width: 70px;
+    height: 65px;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 30%;
+    top: 10px;
+}
+.da{
+    position: absolute;
+    margin-left: 84%;
+    top: 20px; 
+    text-align: justify;
+    font-family: arial;
+    font-size: x-small;
 }
 input, select, button {
     width: 300px;
